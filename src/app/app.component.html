@@ -1,0 +1,61 @@
+
+
+  <!-- INICIO NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="icono-navbar"><a class="navbar-brand" href="index.html">
+      <img src="assets/images/2446022.png" alt="nelsondev logo" width="40" height="35" class="align-text-top" />
+      nelsondev
+  </a>
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+  </button></div>
+  <div class="menu-navbar">
+    <div class="container">
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                  <a class="nav-link active" href="#" (click)="mostrarPortadaComponent()">Intro</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#" (click)="mostrarSobreMiComponent()">Mis proyectos</a>
+              </li>
+          </ul>
+      </div>
+  </div>
+  </div>
+
+</nav>
+
+<!-- Aquí el resto de tu contenido -->
+
+    <!-- FIN NAVBAR -->
+
+    <!-- INICIO PORTADA -->
+    <div *ngIf="mostrarPortada">
+      <portada-component></portada-component>
+  </div>
+
+  <div *ngIf="mostrarProyectos">
+    <proyectos-component></proyectos-component>
+  </div>
+
+    <!-- FIN DE PORTADA -->
+
+    <!-- INICIO SOBRE MI -->
+
+    <div *ngIf="mostrarSobreMi">
+      <sobre-mi-component></sobre-mi-component>
+  </div>
+
+<!-- FIN DE SOBRE MI -->
+
+<!-- INICIO FOOTER -->
+    <footer class="bg-dark text-white text-center py-3 mt-5">
+        <div class="container">
+            <p>2024 Todos los derechos reservados</p>
+        </div>
+    </footer>
+  <!-- FIN FOOTER -->
+
