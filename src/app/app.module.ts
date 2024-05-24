@@ -6,11 +6,13 @@ import { AppComponent } from './app.component';
 import { PortadaModule } from './components/portada/portada.module';
 import { SobreMiModule } from './components/sobre-mi/sobre-mi.module';
 import { ProyectosComponent } from './components/proyectos/proyectos.component';
+import { ContactosComponent } from './components/proyectos/contactos/contactos.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ProyectosComponent,
+    ContactosComponent,
 
 
   ],

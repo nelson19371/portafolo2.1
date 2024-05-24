@@ -1,81 +1,176 @@
 .home {
   background-image: url('./images/blake-connally-IKUYGCFmfw4-unsplash.jpg');
 }
-/*
-.gallery__img{
-  width: 100%;
+
+footer{
+  background: black;
+  padding: 20px 0;
+  color: white;
+  margin-top:40px;
+
+}
+.footer{
+  display:flex;
+  justify-content: center;
+}
+.lenguajes{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+
+}
+
+
+.lenguajes img{
   height: 100%;
-  object-fit:cover;
-  border-radius:20px;
-} */
+  width: 100px;
+  margin: 40px;
+}
 
-
-
-
-
-/* .gallery__item:nth-child(4){
-grid-column-start:span 2;
+.lenguajes__container{
+  align-items: center;
 
 }
 
-.gallery__item:nth-child(5){
-  grid-row-start: span 2;
+.titulo{
+  margin-top: 20px;
+  text-align:center;
+  font-family:monospace;
+  font-size: 60px;
 
+  font-weight:bold;
 }
+.Tproyectos{
 
-.gallery__item:nth-child(9){
-  grid-column-start: span 2;
-
-} */
-/* .gallery__item:hover{
-  opacity: 100%;
-  object-fit:contain;
-}
-
-.gallery__item_:hover{
-  opacity: 100%;
-  object-fit:contain;
-}
-
-@media (min-width:768px){
-
-  .gallery-container{
-      grid-template-columns: repeat(4, 1fr);
-  }
-  .gallery__item:nth-child(3){
-      grid-column-start:span 2;
-
-    }
-    .gallery__item:nth-child(4){
-      grid-column-start:span 3;
-
-    }
-
-    .gallery__item:nth-child(5){
-        grid-row-start: span 3;
-
-    }
-
-    .gallery__item:nth-child(9){
-        grid-column-start: span 3;
-
-    }
-
-} */
-/* .gallery-container{
   text-align: center;
-  display: grid;
-  grid-template-columns: repeat(3,1fr);
-  grid-auto-rows: 350px;
 
 
 }
+.gallery__title {
+  position: absolute;
+  bottom: 0;
+  background: #333;
+  width: 100%;
+  margin: 0;
+  padding: 10px;
+  border: 1px solid black;
+  color:white;
+  border-radius: 5px;
+}
+.gallery__title_html{
+  position: absolute;
+  bottom: 0;
+  background: #36A3FE;
+  width: 100%;
+  height: 50px;
+  margin: 0;
+  padding: 10px;
+  border: 1px solid white;
+  color:white;
+  border-radius: 5px;
+}
 
-.gallery__item{
+.gallery__title_css{
+  position: absolute;
+  bottom: 0;
+  background: black;
+  width: 100%;
+  height: 50px;
+  margin: 0;
+  padding: 10px;
+  border: 1px solid white;
+  color:white;
+  border-radius: 5px;
+}
+.gallery__title_javascript {
+  position: absolute;
+  bottom: 0;
+  /* background: red; */
+  width: 300px;
+  height: 31px;
+  margin: 0;
+  padding: 10px;
+  /* border: 1px solid white; */
+  color: white;
+  border-radius: 5px;
+  font-size: 15px;
+  opacity: 94%;
+  margin-left: 149px;
+}
+
+
+.gallery__item_{
   position: relative;
   margin: 2px;
   opacity: 60%;
   margin: 10px;
+  margin-top: 32px;
+}
+@media (max-width:600px) {
+  .lenguajes img {
+      height: 100%;
+      width: 50px;
+      margin: 20px;
+  }
+  footer {
+      background: black;
+      padding: 2px 0;
+      color: white;
+      margin-top: 10px;
+
+  }
+  .gallery__title_css {
+      position: absolute;
+      bottom: 0;
+      background: black;
+      width: 100%;
+      height: 50px;
+      margin: 0;
+      padding: 10px;
+      border: 1px solid white;
+      color: white;
+      border-radius: 5px;
+      margin: -24px 0px;
+      font-size: 19px;
+  }
 
 
-} */
+  .gallery__title_javascript {
+      position: absolute;
+      bottom: 0;
+      background: red;
+      width: 100%;
+      height: 50px;
+      margin: -18px 0px;
+      padding: 10px;
+      border: 1px solid white;
+      color: white;
+      border-radius: 5px;
+      font-size: 19px;
+  }
+  .gallery__title_html {
+      position: absolute;
+      bottom: 0;
+      background: #36A3FE;
+      width: 100%;
+      height: 50px;
+      margin: 0;
+      padding: 10px;
+      border: 1px solid white;
+      color: white;
+      border-radius: 5px;
+      margin: -24px 0px;
+      font-size: 19px;
+  }
+  .titulo {
+      margin-top: 20px;
+      text-align: center;
+      font-family: monospace;
+      font-size: 48px;
+      font-weight: bold;
+  }
+}
+#gmail_img{
+  width: 19px;
+  margin-left: 118px;
+}
